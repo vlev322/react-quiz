@@ -1,7 +1,7 @@
 import { Axios } from "axios";
 export const GET_QUESTIONS = 'GET_QUESTIONS';
 
-export function getOptions() {
+export function getQuestions() {
 	return Axios.get('/api/quiz')
 		.then(response => response.data)
 		.then(data => ({

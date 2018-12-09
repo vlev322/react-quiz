@@ -14,6 +14,10 @@ import * as actions from '../store/actions.js';
 import './index.css'
 
 export default class App extends Component {
+	componentDidMount() {
+		actions.getQuestions();
+	}
+	
 	render() {
 		return (
 			<Layout element='main'>

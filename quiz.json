@@ -1,0 +1,37 @@
+[
+	{
+		"text": "What is the correct syntax for creating an object instsnce:",
+		"options": [
+			"`new { x = 1, y = 2 }`",
+			"`{ x: 1, y: 2 }`",
+			"`{ x = 1, y =  2 }`",
+			"`new { x: 1, y: 2 }`"
+		],
+		"answer": 1,
+		"area": "objects",
+		"level": "beginner"
+	},
+	{
+		"text": "Wich of the following will create a copy of an array such that changes ti the old array eill not be reflected in the new array?",
+		"options": [
+			"`var newArray = oldArray`",
+			"`var newArray = oldArray.slice();`",
+			"`var newArray = [oldArray]`"
+		],
+		"answer": 1,
+		"area": "arrays",
+		"level": "intermediate"
+	},
+	{
+		"text": "What does JSONP stand for?",
+		"options": [
+			"JavaScript object Notation Parser",
+			"JavaScript object Notation Predicate",
+			"JavaScript object Notation with Paddding",
+			"JavaScript object Notation Protocol"
+		],
+		"answer": 3,
+		"area": "objects",
+		"level": "beginner"
+	}
+]
